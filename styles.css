@@ -2,14 +2,14 @@
         body {
             font-family: Arial, sans-serif;
             font-size: 12pt;
-            background-color: #c5d7e8; /* Light blue */
+            background-color: #d2e6f8; /* Light blue */
             color: #333; /* Dark gray */
             margin: 20px; /* Greater than 10pt margin for all sides */
         }
-        /* Styles for heading tags */
+    
         h1 {
             font-size: 24pt;
-            color: #872468; /* Tomato */
+            color: #872468;
             font-weight: bold; /* Ensure H1 appears more important */
             margin-bottom: 10px; /* Add spacing below H1 */
         }
