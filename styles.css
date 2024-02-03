@@ -2,53 +2,53 @@
         body {
             font-family: Arial, sans-serif;
             font-size: 12pt;
-            background-color: #d2e6f8; /* Light blue */
-            color: #333; /* Dark gray */
-            margin: 20px; /* Greater than 10pt margin for all sides */
+            background-color: #d2e6f8; 
+            color: #333;
+            margin: 20px; 
         }
     
         h1 {
             font-size: 24pt;
             color: #872468;
-            font-weight: bold; /* Ensure H1 appears more important */
-            margin-bottom: 10px; /* Add spacing below H1 */
+            font-weight: bold; 
+            margin-bottom: 10px; 
         }
         h2 {
             font-size: 20pt;
-            color: #4682b4; /* Steel blue */
-            margin-bottom: 8px; /* Add spacing below H2 */
+            color: #4682b4; 
+            margin-bottom: 8px; 
         }
         h3 {
             font-size: 18pt;
-            color: #008080; /* Teal */
-            margin-bottom: 6px; /* Add spacing below H3 */
+            color: #008080; 
+            margin-bottom: 6px; 
         }
-        /* Styles for paragraph tags */
+       
         p {
             font-size: 14pt;
-            color: #696969; /* Dim gray */
-            line-height: 1.6; /* Adjust line height for readability */
-            margin-bottom: 12px; /* Add spacing below paragraphs */
+            color: #696969; 
+            line-height: 1.6; 
+            margin-bottom: 12px; 
         }
-        /* Anchor Tags */
+        
         a:link {
-            color: #800080; /* Purple */
-            text-decoration: none; /* Remove underline */
+            color: #800080; 
+            text-decoration: none; 
         }
 
         a:visited {
-            color: #4B0082; /* Indigo */
-            text-decoration: none; /* Remove underline */
+            color: #4B0082; 
+            text-decoration: none; 
         }
 
         a:hover {
-            color: #ff4500; /* Orange red */
-            text-decoration: underline; /* Add underline on hover */
+            color: #ff4500; 
+            text-decoration: underline; 
         }
 
         a:active {
-            color: #008000; /* Green */
-            text-decoration: none; /* Remove underline */
+            color: #008000; 
+            text-decoration: none; 
         }
 
         .link {
@@ -61,15 +61,6 @@
             border: 1px solid #000
         }
 
-        .link {
-            float: left;
-            border: 1px solid #000;
-        }
-
-        .text {
-            float: left;
-            border: 1px solid #000
-        }
 
       
    
