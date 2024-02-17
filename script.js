@@ -12,7 +12,7 @@ function promptForName() {
 
 function enlargeImage() {
     var image = document.photo.png("photo.png");
-    image.style.width = "600px"; // Adjust the size as needed
+    image.style.width = "800px"; // Adjust the size as needed
 }
 
 // c. Customized Navigation Menu
