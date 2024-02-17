@@ -1,5 +1,5 @@
 
-	// a. Prompt for User Name
+
 function promptForName() {
     var userName = prompt("Please enter your name:");
     if (userName !== null && userName !== "") {
@@ -9,10 +9,10 @@ function promptForName() {
     }
 }
 
-// b. Enlarge Image on Click
+
 function enlargeImage() {
     var image = document.photo.png("photo.png");
-    image.style.width = "300px"; // Adjust the size as needed
+    image.style.width = "600px"; // Adjust the size as needed
 }
 
 // c. Customized Navigation Menu
