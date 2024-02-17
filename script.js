@@ -11,7 +11,7 @@ function promptForName() {
 
 // b. Enlarge Image on Click
 function enlargeImage() {
-    var image = document.photo.png("my-image");
+    var image = document.photo.png("photo.png");
     image.style.width = "300px"; // Adjust the size as needed
 }
 
