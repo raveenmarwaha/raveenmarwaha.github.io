@@ -8,31 +8,32 @@ body {
     margin: 20px; 
 }
     
-        h1 {
-            font-size: 24pt;
-            color: #872468;
-            font-weight: bold; 
-            margin-bottom: 10px; 
-        }
-        h2 {
-            font-size: 20pt;
-            color: #4682b4; 
-            margin-bottom: 8px; 
-        }
-        h3 {
-            font-size: 18pt;
-            color: #008080; 
-            margin-bottom: 6px; 
-        }
-       
-        p {
-            font-size: 14pt;
-            color: #696969; 
-            line-height: 1.6; 
-            margin-bottom: 12px; 
-        }
+h1 {
+    font-size: 36px; /* Larger font size for headings */
+    color: #4e4e4e; /* Dark gray heading color */
+    font-weight: bold; 
+    margin-bottom: 20px; /* Increased bottom margin for headings */
+}
+h2 {
+    font-size: 28px; /* Slightly smaller font size for subheadings */
+    color: #2a2a2a; /* Darker gray subheading color */
+    margin-bottom: 16px; 
+}
+
+h3 {
+    font-size: 24px; /* Smaller font size for sub-subheadings */
+    color: #1a1a1a; /* Darkest gray sub-subheading color */
+    margin-bottom: 12px; 
+}
+
+p {
+    font-size: 14pt;
+    color: #696969; 
+    line-height: 1.6; 
+    margin-bottom: 12px; 
+}
         
-        a:link {
+  a:link {
             color: #800080; 
             text-decoration: none; 
         }
