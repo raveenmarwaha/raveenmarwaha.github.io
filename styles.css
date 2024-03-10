@@ -1,11 +1,12 @@
 
-        body {
-            font-family: Arial, sans-serif;
-            font-size: 12pt;
-            background-color: #ddeaf6; 
-            color: #333;
-            margin: 20px; 
-        }
+body {
+    font-family: 'Roboto', sans-serif; /* Changed font to Roboto */
+    font-size: 16px; /* Increased font size for better readability */
+    line-height: 1.6; /* Improved line spacing */
+    background-color: #f4f4f4; /* Light gray background */
+    color: #333; /* Dark gray text color */
+    margin: 20px; 
+}
     
         h1 {
             font-size: 24pt;
