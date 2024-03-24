@@ -54,3 +54,15 @@ function myFunction() {
     function decreaseFontSize() {
         var currentSize = parseFloat(window.getComputedStyle(document.body, null).getPropertyValue('font-size'));
         document.body.style.fontSize = (currentSize - 2) + 'px';
+
+        function changeColorTheme(theme) {
+            var body = document.body;
+        
+            if (theme === 'light') {
+                body.style.backgroundColor = '#ffffff'; 
+                body.style.color = '#000000'; 
+            } else if (theme === 'dark') {
+                body.style.backgroundColor = '#333333'; 
+                body.style.color = '#ffffff'; 
+            }
+        }
