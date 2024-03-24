@@ -45,4 +45,12 @@ function myFunction() {
     }
     }
     }
+    function increaseFontSize() {
+        var currentSize = parseFloat(window.getComputedStyle(document.body, null).getPropertyValue('font-size'));
+        document.body.style.fontSize = (currentSize + 2) + 'px';
+    }
+    
 
+    function decreaseFontSize() {
+        var currentSize = parseFloat(window.getComputedStyle(document.body, null).getPropertyValue('font-size'));
+        document.body.style.fontSize = (currentSize - 2) + 'px';
